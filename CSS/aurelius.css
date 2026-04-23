@@ -22,7 +22,7 @@
 }
 body
 {
-    background: url("./../image/OGAS.svg") black no-repeat center fixed;
+    background: url("./../image/OGAS.svg")  no-repeat center fixed;
     background-size: contain;
     color:white;
 }
