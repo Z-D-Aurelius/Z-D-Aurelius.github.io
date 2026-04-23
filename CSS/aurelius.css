@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Simp_C";
+    src: url("./../font/NotoSerifSC.ttf") format("truetype-variations");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Simp_C";
+    src: url("./../font/ZhuqueFangsong-Regular.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Noto Serif";
+    src: url("./../font/NotoSerif.ttf") format("truetype-variations");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Noto Serif";
+    src: url("./../font/NotoSerif-Italic.ttf") format("truetype-variations");
+    font-style: italic;
+}
+body
+{
+    background: url("./../image/ogas.svg") black no-repeat center fixed;
+    background-size: contain;
+    color:white;
+}
+/*对齐*/
+.align_C {
+    text-align: center;
+    text-indent: 0em;
+}
+
+.align_L {
+    text-align: left;
+    text-indent: 0em;
+}
+
+.align_R {
+    text-align: right;
+    text-indent: 0em;
+}
+
+/*标题*/
+h1 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    /*字体族*/
+    font-size: 2em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h2 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    /*字体族*/
+    font-size: 1.6em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h3 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal; 
+    /*字体族*/
+    font-size: 1.5em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h4 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal; 
+    /*字体族*/
+    font-size: 1.25em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h5 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    /*字体族*/
+    font-size: 1.2em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h6 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    /*字体族*/
+    font-size: 1em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+.inlineTitle
+
+/*行内标题*/
+    {
+    text-align: center;
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    /*字体族*/
+    font-size: 1.5em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+p {
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1.15;
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.hang {
+    text-align: left;
+    text-indent: -2em;
+    line-height: 1.15;
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.textus {
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1.15;
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.NIndt_textus {
+    text-align: left;
+    text-indent: 0;
+    line-height: 1.15;
+    font-family: "Noto Serif", "Simp_C", serif;
+    font-style: normal;
+    font-size: 1em;
+}
+
+blockquote {
+    font-family: "Noto Serif", "Simp_C", italic;
+    font-style: italic;
+    text-indent: 2em;
+    line-height: 1.15;
+    font-size: 1em;
+}
+
+q {
+    font-family: "Noto Serif", "Simp_C", italic;
+    font-style: italic;
+    line-height: 1.15;
+    font-size: 1em;
+}
+
+.quote {
+    font-family: "Noto Serif", "Simp_C", italic;
+    font-style: italic;
+    line-height: 1.15;
+    font-size: 1em;
+}
+
+.blockquote {
+    font-family: "Noto Serif", "Simp_C", italic;
+    font-style: italic;
+    text-indent: 2em;
+    line-height: 1.15;
+    font-size: 1em;
+}
+
+div
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 15px 30px 15px 30px;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid white;
+}
+
+.block
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 15px 30px 15px 30px;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid white;
+}
