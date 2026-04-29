@@ -1,8 +1,8 @@
 let date = new Date();
 // let month = date.getMonth() + 1;
 // let day = date.getDate();
-let month = 1;
-let day = 1;
+let month = 5;
+let day = 3;
 
 let month_json =
     fetch("./datum/Dies_in_Historiam/" + month + ".json").
