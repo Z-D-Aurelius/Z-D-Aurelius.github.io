@@ -14,4 +14,5 @@ month_json.then(data => {
     document.getElementById("DiH_Event").innerText = day_json["event"];
     document.getElementById("DiH_Description").innerHTML = day_json["description"];
     document.getElementById("DiH_image").src = "./image/Dies_in_Historiam/" + month + "." + day + ".jpg";
+    console.log(document.getElementById("DiH_image").src);
 });
